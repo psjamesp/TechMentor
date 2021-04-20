@@ -13,8 +13,8 @@ function Get-jmpComputerInfo{
         OperatingSystem = $OSInfo.Caption
         Model = $CompInfo.Model
         MachineSN = $BiosInfo.SerialNumber
-        Version = $OSInfo.caption
-        BuildNumber = $OSInfo.version
+        Version = $OSInfo.Version
+        BuildNumber = $OSInfo.BuildNumber
         OSArchitecture = $OSinfo.OSArchitecture
         PowerShellVersion = $PSVersionTable.psversion
         DiskFreeSpace = "" +[math]::Round($diskfreespace /1GB,2) + " GB"
