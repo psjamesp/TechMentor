@@ -33,3 +33,11 @@ Describe 'Testing to make sure the are only 8 planets in the solar system' {
     }
 
 }
+
+
+Write pester tests to do the following
+
+1) Is the Operating systems windows10
+2) Are the following services running
+	DHCP, Bits
+3) Is there at least 10GB of free space available on the c: drive
